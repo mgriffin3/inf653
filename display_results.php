@@ -2,7 +2,7 @@
     // get the data from the form
     $firstname = $_GET['first_name'];
     $lastname = $_GET['last_name'];
-    $age = $_POST['age'];
+    $age = $_GET['age'];
     
     //set message
     $message = 'Hello, my name is ' . $firstname . ' ' . $lastname . '. I am ' . $age . ' years old and I am ';
